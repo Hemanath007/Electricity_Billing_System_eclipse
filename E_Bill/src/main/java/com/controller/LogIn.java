@@ -15,5 +15,8 @@ public class LogIn {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	 
+	 public String toString() {
+		return username;
+		 
+	 }
 }
